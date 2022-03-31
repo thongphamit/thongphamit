@@ -1,0 +1,429 @@
+body{
+    font-family: tohoma;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background:#CCCCCC ;
+    
+}
+
+#menu {
+    border-bottom: 3px solid #000000;
+    background:rgb(64, 64, 66);
+    height: 45px;
+    width: 100%;
+   margin-bottom: 5px;
+    text-align: center;
+    
+
+   
+  
+}
+#menu > ul.umenu{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.umenu > li {
+    list-style: none;
+    float: left;
+   
+}
+ul.umenu > li > a {
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    line-height: 45px;
+    display: block;
+    border-right: 2px solid rgb(253, 251, 251);
+    font-size: 14px;
+    color: rgb(253, 253, 253);
+}
+
+ul.uumenu {                                                                   /*   phần mở rộng dịch vụ  */
+    
+    width: 200px;
+    line-height: 150px;
+    display: none;
+}
+
+ul.uumenu li {
+    list-style: none;
+
+}
+ul.uumenu li a {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    border-top: 3px solid rgb(62, 42, 236);
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+ul.umenu > li:hover ul.uumenu{                                                 /*   phần hover để mở dich vu  */
+        display:block;
+      
+       
+}
+
+ul.umenu li.trangchu{
+    background: #FFE651 ;
+    
+}
+ul.umenu li.trangchu a {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+#menu img{
+    height: 45px;
+    width: 50px;
+    margin-right: 150px;
+   
+}
+#menu h3 {
+    height: 45px;
+    width: 45px;
+    float: left;
+     
+    color: rgb(255, 174, 0);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+
+}
+#menu h3 a{
+    margin-left:350px;
+    line-height: 5px;
+    
+}
+/*   css phần menu */
+/*   css phàn baner*/
+
+
+
+#banne{
+    text-align: center;
+}
+#banne img{
+    height:500px;
+    width: 100%;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+   
+}
+
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(5, 5, 5) 50%, rgb(255, 238, 0) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+ #left{
+     margin-top: 5px;
+     float: left;
+   min-height: 400px;
+    width: 80%;
+    background: #fcf9f9;
+    
+   
+    
+
+}
+
+
+
+ #righe{
+    margin-top: 5px;
+     min-height: 400px;
+     width: 19%;
+     background: #fcf9f9;
+    float: right;
+  
+    margin-right: 5px;
+     
+}
+
+
+#left .anhht{
+     width: 150px;
+     height: 150px;
+     float: left;
+     margin-right: 10px;
+}
+
+#left ul{
+    margin: 0px ;
+    padding-left: 3px ;
+    background: #0f0c0c;
+}
+#left ul li {
+    float: left;
+    list-style: none;
+    clear: left;
+  padding:5px;
+  border-top: 3px solid rgb(243, 247, 5);
+  background: #0f0c0c;
+}
+#left ul li h1 {
+    
+    color: rgb(255, 255, 255);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 22px;
+    
+}
+#left ul li h2{
+    font-weight: bold;
+   font-size: 14px;
+   color: #fc5000;
+padding-bottom: 7px;
+}
+
+
+#left ul li h3{
+    font-weight: bold;
+   font-size: 14px;
+   color: #fc5000;
+   padding: 0px;
+}
+
+
+
+
+
+
+
+
+#righe #danhmuc{
+      
+        color: #000000;
+        background: #FFE651 url("./images/icon/statistical.png") no-repeat ;
+        border-bottom: 2px solid #000000;
+        height: 40px;
+}
+
+#righe #danhmuc h1 {
+    margin-top: 0px;
+    text-indent: 48px;
+    font-size: 18px;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    
+    
+}
+
+#item ul {
+     padding: 0px;
+     margin: 0px;
+     
+}
+
+#item ul li {
+    margin: 0px;
+    list-style: none;
+    display: block;
+    padding: 5px;
+    border: 1px solid #fde403;
+    height: 18px;
+    background: url("./images/icon/affability.png") no-repeat;
+    text-indent: 30px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#boot{
+  
+    width: 100%;
+    height: 40px;
+    clear: left;
+    background: #000000;
+}
+
+#item ul li:hover{
+    background: #fde403;
+}
+
+#left ul li:hover{
+    background: #353030;
+}
+
+#menu ul li a:hover{
+    background: #ffffff;
+    color: #000000;
+    font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+#c{
+    background: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#codee{
+    margin-top: 25px;
+     min-height: 200px;
+     width: 19%;
+     background: #fcf9f9;
+    float: right;
+  
+    margin-right: 5px;
+    border: #000000 2px solid;
+}
+
+
+#messger{
+    background: #fde403;
+}
+#messger h1 {
+    background: url("./images/icon/imessage.png") no-repeat;
+    padding: 3px;
+    font-size: 14px;
+    margin-top: 0px;
+    border-bottom: 1px solid #000000;
+    text-indent: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#chat{
+    font-size: 14px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#vm{
+    margin-top: 25px;
+    width: 258px;
+    height: 240px;
+ 
+   margin-right: 5px;
+   border: #000000 2px solid; 
+}
+#mv video{
+    width: 258px;
+   height:  240px;
+    margin-left:5px;
+}
+
+#banggia{
+    margin-top: 7px;
+    float: left;
+ height: 400px;
+   width: 80%;
+   background: #fcf9f9;
+  
+
+}
+#banggia img{
+    width: 400px;
+    height: 400px;
+    padding-left: 5px;
+    border-right:5px solid #fde403;
+    float: left;
+}
+#banggia #menugia{
+    background: #ff2a2a;
+    height: 40px ;
+   
+   
+}
+#menugia h3 {
+    padding: 3px;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#banggia h4{
+    font-size: 14px;
+   text-align: center;
+}
+
+#boot{
+  float: left;
+    width: 100%;
+    height: 30px;
+    background: #0a0909;
+    margin-top: 20px;
+    
+}
+
+#boot h1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffee00;
+
+}
+
+#left #muahang{
+    width: 5px;
+    height: 4px;
+  padding-left: 90%;
+ 
+   
+}
+
+#left #muahang input:hover{
+    background: #FFE651;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
